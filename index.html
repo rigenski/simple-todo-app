@@ -34,20 +34,28 @@
         <h1 class="text-center pt-5 pb-5" id="text-brand">Todo List</h1>
       </header>
       <form action="#">
-        <div class="input-group mb-3">
+        <div
+          class="input-group mb-3 border d-flex justify-content-between pt-2 pb-2 rounded"
+          id="form"
+        >
           <input
             type="text"
-            class="form-control"
-            placeholder="add your todo"
+            class="form-control shadow-none border-0"
+            placeholder="add your todo ..."
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
             id="input-text"
           />
-          <!-- <button type="submit" id="button-add" onclick="add()">
+          <button
+            type="submit"
+            id="button-add"
+            class="btn btn-primary shadow-none"
+            onclick="add()"
+          >
             <i class="fas fa-plus fa-lg"></i>
-          </button> -->
+          </button>
 
-          <div class="input-group-append">
+          <!-- <div class="input-group-append">
             <button
               class="btn btn-outline-secondary pr-5 pl-5"
               type="submit"
@@ -56,7 +64,7 @@
             >
               ADD
             </button>
-          </div>
+          </div> -->
         </div>
       </form>
 

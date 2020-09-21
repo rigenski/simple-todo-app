@@ -13,17 +13,26 @@
   font-weight: bold;
 }
 
-.fa-times {
-  color: red;
-  cursor: pointer;
+#form {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-/* #button-add {
-  position: absolute;
-  border: 0;
+
+#input-text {
   background: none;
 }
 
 .fa-plus {
   color: green;
   cursor: pointer;
-} */
+}
+
+#button-add {
+  border: 0;
+  background: none;
+  padding-right: 20px;
+}
+
+.fa-times {
+  color: red;
+  cursor: pointer;
+}
