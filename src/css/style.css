@@ -9,12 +9,19 @@
 }
 
 #text-brand {
-  background-color: #61d4b3;
+  /* background-color: #61d4b3; */
   font-weight: bold;
+  color: #61d4b3;
+  font-size: 3rem;
 }
 
 #form {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+#form:hover {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 #input-text {
@@ -24,15 +31,26 @@
 .fa-plus {
   color: green;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-plus:hover {
+  transform: scale(1.1);
 }
 
 #button-add {
   border: 0;
   background: none;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .fa-times {
   color: red;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-timess:hover {
+  transform: scale(1.1);
 }
