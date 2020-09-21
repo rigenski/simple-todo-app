@@ -21,7 +21,7 @@
 }
 
 #form:hover {
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 #input-text {
@@ -29,7 +29,7 @@
 }
 
 .fa-plus {
-  color: green;
+  color: rgb(95, 194, 95);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -46,7 +46,7 @@
 }
 
 .fa-times {
-  color: red;
+  color: rgb(230, 76, 76);
   cursor: pointer;
   transition: 0.3s;
 }
