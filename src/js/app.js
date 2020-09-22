@@ -2,8 +2,6 @@ const todoBox = document.getElementById("root");
 const STORAGE_TODO = "STORAGE_TODO";
 let todos = {};
 
-// =================================================================
-
 if ((todoFromLocal = localStorage.getItem(STORAGE_TODO))) {
   todos = JSON.parse(todoFromLocal);
 
@@ -29,7 +27,6 @@ function syncLocalStorage(activity, item, status = false) {
 
   return;
 }
-// =================================================================
 
 function add() {
   let input = document.getElementById("input-text");

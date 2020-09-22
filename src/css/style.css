@@ -26,10 +26,11 @@
 
 #input-text {
   background: none;
+  margin-left: 8px;
 }
 
 .fa-plus {
-  color: rgb(95, 194, 95);
+  color: #61d4b3;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -41,12 +42,12 @@
 #button-add {
   border: 0;
   background: none;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 18px;
+  padding-left: 18px;
 }
 
 .fa-times {
-  color: rgb(230, 76, 76);
+  color: rgb(240, 94, 94);
   cursor: pointer;
   transition: 0.3s;
 }
