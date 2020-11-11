@@ -55,3 +55,11 @@
 .fa-times:hover {
   transform: scale(1.1);
 }
+
+.a-link {
+  color: rgb(240, 94, 94);
+}
+
+.a-link:hover {
+  color: #61d4b3;
+}
