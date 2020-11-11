@@ -30,9 +30,10 @@ function syncLocalStorage(activity, item, status = false) {
 
 function add() {
   let input = document.getElementById("input-text");
-  createList(input.value);
-
-  syncLocalStorage("ADD", input.value);
+  if(input.value !== '') {
+    createList(input.value);
+    syncLocalStorage("ADD", input.value);
+  }
 
   input.value = "";
 }
